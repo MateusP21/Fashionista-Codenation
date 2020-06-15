@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProductContainer = styled.div`
-  padding: 100px 40px;
+  padding: 100px 0;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -40,6 +40,12 @@ export const Item = styled.div`
       grid-auto-flow: column;
       grid-gap: 10px;
     }
+
+
+  }
+  @media only screen and (max-width:450px) {
+  & {
+    grid-auto-flow:row;
   }
 `;
 export const ItemList = styled.li`
@@ -57,5 +63,5 @@ ${(props) => !props.available && `
   cursor: default;
   
 `}
-  
+
 `;
