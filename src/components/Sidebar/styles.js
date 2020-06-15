@@ -54,7 +54,7 @@ export const SideNav = styled(Animated)`
     }
 
 
-    @media only screen and (min-width: 400px) {
+    @media only screen and (max-width: 400px) {
   & {
     width:100%;
   }
