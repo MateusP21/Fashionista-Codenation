@@ -23,6 +23,7 @@ export const Header = styled.div`
       grid-gap:5px;
       padding: 2px;
       border-radius:4px;
+      align-items:center;
     }
     button {
     background: transparent;

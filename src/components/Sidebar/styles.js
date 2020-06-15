@@ -57,6 +57,7 @@ export const SideNav = styled(Animated)`
     @media only screen and (max-width: 400px) {
   & {
     width:100%;
+    height:100%;
   }
 
 `;
